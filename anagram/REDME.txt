@@ -38,9 +38,3 @@ http://localhost:8080/anargram/add?word=jayvi
 -- Delete
 http://localhost:8080/anargram/delete?word=jayvi
 
-
--------------------------------
-SQL Test
------------------------------
-
-https://github.com/HanuVijayPatel/repo2.git ->  anagram/SQL_Test.doc
