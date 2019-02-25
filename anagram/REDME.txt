@@ -1,0 +1,46 @@
+----------------------------
+Download the test project
+----------------------------
+
+GitHub - https://github.com/HanuVijayPatel/repo2.git ->  anagram
+
+
+---------------------------------
+How to Run the Application 
+---------------------------------
+
+NOTE: Please place the words.txt in C:\Temp\words.txt 
+
+- For stand alone application to get the Anagram word
+
+Run as Java Application -> com.vijay.anagram.AnagramApp  
+
+- For Client Server (Spring Boot - Web Application) (Jar file location -> anagram\target\anagram.vijay-0.0.1-SNAPSHOT.jar)
+
+From IDE -  Run as Java Application -> com.vijay.anagram.AnargramSBApplication
+From command line  -> java -jar anagram.vijay-0.0.1-SNAPSHOT.jar 
+
+
+----------------------------------------
+-- End Points for Add, Delete and Get .
+----------------------------------------
+
+-- Get
+http://localhost:8080/anargram/get?word=orchestra
+http://localhost:8080/anargram/get?word=ab
+http://localhost:8080/anargram/get?word=jyavi
+
+-- Add
+http://localhost:8080/anargram/add?word=vijay
+http://localhost:8080/anargram/add?word=jayvi
+
+
+-- Delete
+http://localhost:8080/anargram/delete?word=jayvi
+
+
+-------------------------------
+SQL Test
+-----------------------------
+
+https://github.com/HanuVijayPatel/repo2.git ->  anagram/SQL_Test.doc
